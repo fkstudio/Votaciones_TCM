@@ -1,0 +1,169 @@
+body {
+    background: url('../img/bg.jpg') center bottom no-repeat fixed;
+}
+
+.trans-3 {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease
+}
+.footer{
+    display: none;
+}
+
+.login-btn {
+    z-index: 99
+}
+.tab-content>.tab-pane{
+    margin-bottom:3rem;
+}
+.wizard-card .tab-content{
+    padding-top:0;
+    padding-bottom:0;
+    
+}
+.wizard-card .wizard-title {
+    line-height: 1.1;
+    font-size: 3.3rem;
+    color: #001f45
+}
+
+.wizard-card .wizard-title:after {
+    background: #e52230;
+    height: 5px;
+    content: '';
+    display: block;
+    max-width: 6rem;
+    margin: 1rem auto 0
+}
+
+.wizard-card .wizard-header h5 {
+    margin-top: 3rem
+}
+.wizard-card .wizard-header{
+    padding-bottom:0;
+}
+.wizard-card .info-text {
+    font-size: 2rem;
+    max-width: 35rem;
+    margin: 2rem  auto;
+    font-weight: 500;
+}
+.wizard-card .btn-finish{
+    font-size:1.8rem;
+    
+    width:100% !important;
+}
+.btn.btn-info,.btn.btn-info:hover,.btn.btn-info:focus,.btn.btn-info:active,.btn.btn-info.active,.btn.btn-info:active:focus,.btn.btn-info:active:hover,.btn.btn-info.active:focus,.btn.btn-info.active:hover,.open > .btn.btn-info.dropdown-toggle,.open > .btn.btn-info.dropdown-toggle:focus,.open > .btn.btn-info.dropdown-toggle:hover {
+    background: #001f45
+}
+
+.form-group {
+    margin-top: 0
+}
+
+.btn-finish {
+    background-color: #29B17B!important
+}
+
+.info-end {
+    background: #edfdf6;
+    padding: 2rem 0;
+    font-size: 1.7rem;
+    max-width: 80%;
+    color: #000!important
+}
+
+.info-end h3 {
+    font-size: 2rem;
+    color: #29b17b;
+    margin: 0;
+    padding: 1rem 2rem
+}
+
+.info-end .txt {
+    padding: 0 2rem 2rem
+}
+
+.nav-pills > li > a:hover {
+    background: #e8e8e8
+}
+
+.flex-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.flex-content .flex-item {
+    margin: 0 2%;
+    text-align: center
+}
+
+.wizard-card .choice .icon {
+    height: inherit
+}
+
+.wizard-card .choice .icon img {
+    width: 100%
+}
+
+@media(max-width: 600px) {
+    .wizard-container {
+        padding:4rem 0
+    }
+
+    .wizard-card .choice .icon {
+        width: 90px;
+        margin: 0;
+        display: inline-block
+    }
+
+    .wizard-card .wizard-title {
+        font-size: 2.5rem
+    }
+
+    .wizard-card .info-text {
+        font-size: 1.6rem
+    }
+
+    .wizard-card .nav-pills > li {
+        width: 100%!important
+    }
+
+    .wizard-card[data-color="blue"] .moving-tab {
+        display: none
+    }
+
+    .flex-content .flex-item {
+        width: 40%
+    }
+
+    .nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover {
+        background-color: #00bcd4;
+        color: #FFF!important;
+        cursor: pointer;
+        font-weight: 500
+    }
+
+    .wizard-card .tab-content {
+        min-height: 10rem
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 1.4rem;
+        text-align: center
+    }
+
+    .info-end {
+        max-width: 100%;
+        font-size: 1.4rem
+    }
+
+    .info-end .title {
+        font-size: 1.8rem
+    }
+
+    .footer {
+        margin: 2.2rem 0 0 0
+    }
+}
